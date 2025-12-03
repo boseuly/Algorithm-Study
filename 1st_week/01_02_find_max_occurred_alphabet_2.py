@@ -22,6 +22,8 @@ def find_max_occurred_alphabet_answer(string):
 
     return max_alphabet
 
+# 시간복잡도: 52N + 104
+
 # [강의풀이2]
 # 1. 각 알파벳이 몇 번 출현했는지 하나의 배열에 저장
 # 2. 알파벳 출현 횟수를 for문을 통해서 비교
@@ -47,6 +49,8 @@ def find_max_occurred_alphabet_answer_2(string):
             max_alphabet_index = index
     return chr(max_alphabet_index + ord('a'))
 
+# 시간복잡도: 3N + 106
+# 두 방법 모두 N^2에 비해서 효율적인 방법이다.
 
 result1 = find_max_occurred_alphabet_answer
 print("정답 = i 현재 풀이 값 = ", result1("hello my name is dingcodingco"))

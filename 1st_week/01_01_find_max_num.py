@@ -25,6 +25,7 @@ def find_max_num2(array):
                 is_max_num = False
             if is_max_num:
                 return number
+# 2*N^2+N 만큼의 시간복잡도를 가진다.
 
 # [강의풀이2]
 def find_max_num3(array):
@@ -34,3 +35,6 @@ def find_max_num3(array):
             max_number = number
     return max_number
 
+# 2N+1 만큼의 시간복잡도를 가진다.
+
+# 결과: 2번째 풀이 방식이 
