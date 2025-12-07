@@ -16,3 +16,5 @@ person_1.talk()
 person_2 = Person("박명수")
 print(person_2.name)
 person_2.talk()
+
+# 링크드 리스트 구현
