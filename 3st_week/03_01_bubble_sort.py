@@ -13,9 +13,9 @@ input = [4, 6, 2, 9, 1]
 def bubble_sort(array):
     n = len(array)
 
+    # 시간복잡도 O(N^2)
     for i in range(n - 1):
-        for j in range(n - i - 1):
-            print(i, j)
+        for j in range(n - i - 1): # i를 빼는 이유는 i만큼은 이미 정렬이 된 상태이기 때문에
             if array[j] > array[j + 1]: # 만약 array[j]보다 array[j+1]이 더크면 값을 서로 바꿔줘야 한다.
                 array[j], array[j+1] = array[j+1], array[j]
 
