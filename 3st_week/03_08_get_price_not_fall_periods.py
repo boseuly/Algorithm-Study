@@ -75,3 +75,11 @@ print(get_price_not_fall_periods_queue(prices))
 print("정답 = [4, 3, 1, 1, 0] / 현재 풀이 값 = ", get_price_not_fall_periods_queue(prices))
 print("정답 = [6, 2, 1, 3, 2, 1, 0] / 현재 풀이 값 = ", get_price_not_fall_periods_queue([3, 9, 9, 3, 5, 7, 2]))
 print("정답 = [6, 1, 4, 3, 1, 1, 0] / 현재 풀이 값 = ", get_price_not_fall_periods_queue([1, 5, 3, 6, 7, 6, 5]))
+
+# 복습
+# stack은 처음으로 들어간 데이터가 마지막으로 나온다. => FILO 방식
+# stack에 포함된 함수로는 push, pop, peek, is_empty
+
+# queue는 처음 들어간 데이터가 첫번째로 나온다. => FIFO 방식
+# queue에 포함된 함수는 enqueue, dequeue, peek, is_empty
+
